@@ -15,8 +15,11 @@ public class Main {
         company.addEmploee(fullTimeEmployee);
         company.addEmploee(temporaryEmployee);
 
-        System.out.println(company.sumOfSalaries());
-        System.out.println(company.averageOfSalaries());
+        System.out.println(String.format("%.2f",company.sumOfSalaries()));
+        System.out.println(String.format("%.2f",company.averageOfSalaries()));
+
+        //lub
+        //System.out.printf("%.2f",company.averageOfSalaries());
 
 
 
